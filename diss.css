@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #f5eded;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: #001;
+    display: flex;
+}
+
+.menu{
+    background-color: #123;
+    width: 60px;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 95%;
+}
+ul li a{
+
+    display: block;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+   align-items: center;
+   gap: 40px;
+   transition: all 0.5s;
+}
+ul li a:hover,#hom1,.data .box:hover{
+    background-color: #fcf7f79c;
+}
+.log-out{
+  
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.log-out a{
+    background-color: rgb(116, 7, 7);
+}
+ul li a i{
+    font-size: 30px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: rgb(242, 247, 243) solid 3px;
+    flex-shrink: 0;
+}
+.img img{
+  width: 100%;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+.profile h2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.menu:hover{
+    width: 260px;
+}
+.content{
+    
+    width: 100%;
+    margin: 10px;
+}
+.title{
+    background-color: #075fb8;
+    padding: 10px;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin: 10px 0;
+  
+}
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.data .box{
+    background-color: rgba(70, 85, 85, 0.541);
+    height: 150px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.data .box i{
+    font-size: 40px;
+}
+.da{
+    text-align: center;
+}
+.data .box .da span{
+    font-size: 30px;
+    color: gold;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 8px;
+    
+}
+th,td{
+    background-color: #123;
+    height: 40px;
+    border-radius: 8px;
+    
+}
+th{
+    background-color: #075fb8;
+}
+th:hover,td:hover{
+    background-color: #fcf7f79c;
+}
+.prcei{
+    color: aqua;
+}
+tr  .price{
+    background-color: green;
+}
+tr  .price:hover{
+    background-color: rgba(0, 128, 0, 0.438);
+}
+tr .count{
+    background-color: rgb(230, 199, 29);
+}
+tr .count:hover{
+    background-color: rgba(230, 200, 29, 0.473);
+}
